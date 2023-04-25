@@ -6,7 +6,7 @@ int count = Convert.ToInt32(Console.ReadLine());
 
 void SecondNumber(int number)
 {
-    if (number > 100 && number < 1000)
+    if (number > 99 && number < 1000)
     {
         int a = number / 10;
         int b = a % 10;
