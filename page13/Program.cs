@@ -5,9 +5,9 @@ Console.WriteLine("Введите число: ");
 int count = Convert.ToInt32(Console.ReadLine());
 
 
-void UselessProgram (int number)
+void UselessProgram(int number)
 {
-    int a = number%10;
+    int a = number % 10;
     if (number > 99 && number < 1000)
     {
         Console.WriteLine(a);
@@ -23,4 +23,4 @@ void UselessProgram (int number)
 }
 
 
-UselessProgram (count);
+UselessProgram(count);
